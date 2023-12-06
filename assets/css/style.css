@@ -736,7 +736,7 @@ body {
         z-index: 100;
         background: var(--theme-color);
         position: fixed;
-        left: -100vw;
+        left: -160vw;
         top: 0;
         width: 100%;
         height: 100%;

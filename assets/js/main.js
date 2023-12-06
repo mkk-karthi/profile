@@ -188,7 +188,7 @@
     var fetchSlider = function () {
 
         config.projects.map((item, index) => {
-            $("#projects-content").append(
+            $("#project-content").append(
                 `<div class="swiper-slide">
                     <div class="card">
                         <div class="card-body text-center">
@@ -272,7 +272,7 @@
 
         // fetch interests
         config.interests.map((item, index) => {
-            $("#interests-content").append(
+            $("#interest-content").append(
                 `<div class="col-md-4 col-sm-12 col-12 py-3 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="${index * 200}">
                     <div class="card">
                         <div class="card-avatar">
@@ -442,30 +442,30 @@
         })
 
 
-        $('a[href*="#"]')
-            .not('[href="#"]')
-            .not('[href="#0"]')
-            .click(function (event) {
+        // $('a[href*="#"]')
+        //     .not('[href="#"]')
+        //     .not('[href="#0"]')
+        //     .click(function (event) {
 
-                var target = $(this.hash);
-                target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
-                if (target.length) {
-                    event.preventDefault();
-                    $("html, body").animate({
-                        scrollTop: target.offset().top
-                    }, 100, function () {
-                        var $target = $(target);
-                        $target.focus();
-                        if ($target.is(":focus")) {
-                            return false;
-                        } else {
-                            $target.attr("tabindex", "-1");
-                            $target.focus();
-                        };
-                    });
-                }
+        //         var target = $(this.hash);
+        //         target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+        //         if (target.length) {
+        //             event.preventDefault();
+        //             $("html, body").animate({
+        //                 scrollTop: target.offset().top
+        //             }, 100, function () {
+        //                 var $target = $(target);
+        //                 $target.focus();
+        //                 if ($target.is(":focus")) {
+        //                     return false;
+        //                 } else {
+        //                     $target.attr("tabindex", "-1");
+        //                     $target.focus();
+        //                 };
+        //             });
+        //         }
 
-            });
+        //     });
     });
 
 
