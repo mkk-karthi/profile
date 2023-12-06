@@ -453,7 +453,7 @@
                     event.preventDefault();
                     $("html, body").animate({
                         scrollTop: target.offset().top
-                    }, 1000, function () {
+                    }, 100, function () {
                         var $target = $(target);
                         $target.focus();
                         if ($target.is(":focus")) {
