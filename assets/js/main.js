@@ -2,7 +2,14 @@
 
     "use strict";
 
-    const date = new Date();
+    var d1 = new Date("2021-06-01");
+    var d2 = new Date();
+    var months;
+    months = (d2.getFullYear() - d1.getFullYear()) * 12;
+    months -= d1.getMonth();
+    months += d2.getMonth();
+    var year = months / 12;
+    var experience_year = year % 2 == 0 ? year : Math.floor(year) + "+";
 
     const config = {
         name: "Karthikeyan M",
@@ -14,7 +21,7 @@
         gender: "Male",
         age: getAge("2001/07/15"),
         dob: "15/07/2001",
-        experience: (date.getFullYear() - 2021) + "+ Years",
+        experience: experience_year + " Years",
         languages: "Tamil, English",
         marital: "Single / Unmarried",
         linkedin: "https://www.linkedin.com/in/karthikeyan-m-00a19423b",
@@ -86,7 +93,7 @@
         ],
         skills: {
             "programming-languages": "HTML5, CSS3, JavaScript (ES6+), PHP",
-            "front-end": "Bootstrap, Vue.js, jQuery, React.js, Angular",
+            "front-end": "Bootstrap, Vue.js, Vuetify, jQuery, React.js, Angular",
             "back-end": "Laravel, Codegniter, Node.js, Express.js",
             "database": "MySQL, PostgreSQL, MongoDB",
             "version-control": "Git, Bitbucket, GitHub",
