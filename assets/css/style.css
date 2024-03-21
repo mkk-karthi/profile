@@ -3,8 +3,8 @@
 
 :root {
     --theme-color: rgba(20, 157, 221, 1);
-    --theme-color1: rgba(255,0,242, 1);
-    --theme-color1-op1: rgba(255,0,242, 0.8);
+    --theme-color1: rgba(255, 0, 242, 1);
+    --theme-color1-op1: rgba(255, 0, 242, 0.8);
     --theme-color-op1: rgba(20, 157, 221, 0.8);
     --theme-color-op2: rgba(20, 157, 221, 0.5);
     --theme-color-op3: rgba(20, 157, 221, 0.1);
@@ -261,7 +261,7 @@ body {
     border-radius: 50%;
 }
 
-.card-tags span{
+.card-tags span {
     margin: 3px;
     padding: 0 10px;
     border-radius: 10rem;
@@ -271,11 +271,11 @@ body {
     font-size: 14px;
 }
 
-.card-tags span i{
+.card-tags span i {
     background: -webkit-linear-gradient(144deg, var(--theme-color) 0%, var(--theme-color-op2) 100%);
     background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* my resume */
