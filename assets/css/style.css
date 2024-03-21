@@ -3,7 +3,11 @@
 
 :root {
     --theme-color: rgba(20, 157, 221, 1);
-    --theme-color-1: rgba(20, 157, 221, 0.8);
+    --theme-color-1: rgba(255,0,242, 1);
+    --theme-color-op1: rgba(20, 157, 221, 0.8);
+    --theme-color-op2: rgba(20, 157, 221, 0.5);
+    --theme-color-op3: rgba(20, 157, 221, 0.1);
+    --theme-color-grad: linear-gradient(144deg, var(--theme-color-1) 0%, var(--theme-color) 100%);
     --circle-size: 140px;
     --circle-border-width: 2px;
     --line-height: 8px;
@@ -30,7 +34,7 @@ body {
 /* loader */
 .loader {
     /* background-color: rgba(0, 0, 0, 0.4); */
-    background-color: var(--theme-color-1);
+    background-color: var(--theme-color-op1);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -87,7 +91,7 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    background: var(--theme-color);
+    background: var(--theme-color-grad);
     opacity: 0.9;
 }
 
@@ -186,7 +190,8 @@ body {
     opacity: 0;
     right: 15px;
     z-index: 996;
-    background: var(--theme-color);
+    background: var(--theme-color-grad);
+    box-shadow: 0 0 10px #ffffff;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -251,7 +256,7 @@ body {
     height: 200px;
     width: 200px;
     background-size: cover !important;
-    border-radius: 50%;    
+    border-radius: 50%;
 }
 
 /* my resume */
@@ -379,7 +384,7 @@ body {
     top: 40px;
     left: 50%;
     margin-left: -21px;
-    background: var(--theme-color);
+    background: var(--theme-color-grad);
     z-index: 98;
     display: table;
     -webkit-border-radius: 50%;
@@ -514,7 +519,7 @@ body {
     float: left;
     width: 44px;
     height: 44px;
-    background: #dff3fc;
+    background: var(--theme-color-op3);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -570,29 +575,12 @@ body {
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: var(--theme-color);
-}
-
-.swiper-pagination {
-    margin-top: 20px;
-    position: relative;
-}
-
-.swiper-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    background-color: #fff;
-    opacity: 1;
-    border: 1px solid var(--theme-color);
-}
-
-.swiper-pagination .swiper-pagination-bullet-active {
-    background-color: var(--theme-color);
+    background: var(--theme-color);
 }
 
 /* interests */
 .interests {
-    /* background: var(--theme-color); */
+    /* background: var(--theme-color-grad); */
     margin: 10px 0;
 }
 
@@ -617,7 +605,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     /* box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-    background: var(--theme-color); */
+    background: var(--theme-color-grad); */
     border: 2px solid var(--theme-color);
     padding: 20px;
 }
@@ -640,7 +628,8 @@ body {
 }
 
 .interests .card:hover .card-avatar {
-    background: var(--theme-color);
+    background: var(--theme-color-grad);
+    border: none;
 }
 
 .interests .card:hover .card-caption {
@@ -677,7 +666,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
-    background: var(--theme-color);
+    background: var(--theme-color-grad);
     border: 2px solid #fff;
 }
 
@@ -704,7 +693,7 @@ body {
     #navbar {
         overflow: hidden;
         list-style: none;
-        background-color: var(--theme-color);
+        background: var(--theme-color-grad);
         z-index: 100;
         box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.56);
     }
@@ -735,7 +724,7 @@ body {
         list-style: none;
         padding: 0;
         z-index: 100;
-        background: var(--theme-color);
+        background: var(--theme-color-grad);
         position: fixed;
         left: -160vw;
         top: 0;
