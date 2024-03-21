@@ -18,6 +18,7 @@
         mobile: "+91 97919 34388",
         location: "Virudhunagar",
         address: "Virudhunagar, Tamilnadu, INDIA",
+        address_link: "https://maps.app.goo.gl/SfCGCmK9ph428SrC8",
         gender: "Male",
         age: getAge("2001/07/15"),
         dob: "15/07/2001",
@@ -118,7 +119,7 @@
         education: [
             {
                 role: "Bachelors Degree",
-                company: "VHNSN College - 2019 - 2021",
+                company: "VHNSN College - 2018 - 2021",
                 content: "I pursued my college education at VHNSNC in 2021, specializing in Bachelor of Computer Science with English as the medium of instruction. I am proud to have achieved a commendable score of 72%, reflecting my dedication and hard work throughout my academic journey."
             }, {
                 role: "HSC",
@@ -263,6 +264,7 @@
         $("#dob").text(config.dob);
         $("#marital").text(config.marital);
         $("#footer_location").text(config.address);
+        $("#footer_location").attr("href", config.address_link);
         $("#footer_mobile").text(config.mobile);
         $("#footer_email").text(config.email);
         $("#footer_email").attr("href", "mailTo:" + config.email);
@@ -448,6 +450,17 @@
             mirror: true
         })
 
+        $('.navbar-item a').on('click',function(e) {
+            e.preventDefault();
+            var offset = 50;
+            var target = this.hash;
+            if ($(this).data('offset') != undefined) offset = $(this).data('offset');
+            $('html, body').stop().animate({
+                'scrollTop': $(target).offset().top - offset
+            }, 500, 'swing', function() {
+                // window.location.hash = target;
+            });
+        });
 
         // $('a[href*="#"]')
         //     .not('[href="#"]')
