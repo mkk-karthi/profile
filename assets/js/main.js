@@ -92,14 +92,15 @@
                 img: "wordpress1.svg"
             }
         ],
+        notExpertSkills: ["Bootstrap", "React.js", "Angular", "Codegniter", "Node.js", "Express.js", "MongoDB"],
         skills: {
-            "programming-languages": "HTML5, CSS3, JavaScript (ES6+), PHP",
-            "front-end": "Bootstrap, Vue.js, Vuetify, jQuery, React.js, Angular",
-            "back-end": "Laravel, Codegniter, Node.js, Express.js",
-            "database": "MySQL, PostgreSQL, MongoDB",
-            "version-control": "Git, Bitbucket, GitHub",
-            "tools": "Composer, npm, VScode",
-            "other": "RESTful APIs, AJAX, JSON",
+            "programming-languages": ["HTML5", "CSS3", "JavaScript (ES6+)", "PHP"],
+            "front-end": ["Vue.js", "Vuetify", "jQuery", "Bootstrap", "React.js", "Angular"],
+            "back-end": ["Laravel", "Codegniter", "Node.js", "Express.js"],
+            "database": ["MySQL", "PostgreSQL", "MongoDB"],
+            "version-control": ["Git", "Bitbucket", "GitHub"],
+            "tools": ["Composer", "npm", "VScode"],
+            "other": ["RESTful APIs", "AJAX", "JSON"],
         },
         experiences: [
             {
@@ -293,9 +294,14 @@
             )
         })
 
-        // fetch skills
+        // fetch 
+
         for (var key of Object.keys(config.skills)) {
-            $(`#skills #${key}`).text(config.skills[key]);
+            config.skills[key].forEach(v => {
+                $(`#skills #${key}`).append(`<span>${config.notExpertSkills.includes(v) ? '<i class="fa fa-star-half-o" aria-hidden="true"></i>' : '<i class="fa fa-star" aria-hidden="true"></i>'}
+                 ${v}</span>`);
+            })
+            // $(`#skills #${key}`).text(config.skills[key]);
         }
 
         fetchSlider();
@@ -450,14 +456,14 @@
             mirror: true
         })
 
-        $('.navbar-item a').on('click',function(e) {
+        $('.navbar-item a').on('click', function (e) {
             e.preventDefault();
             var offset = 50;
             var target = this.hash;
             if ($(this).data('offset') != undefined) offset = $(this).data('offset');
             $('html, body').stop().animate({
                 'scrollTop': $(target).offset().top - offset
-            }, 500, 'swing', function() {
+            }, 500, 'swing', function () {
                 // window.location.hash = target;
             });
         });
