@@ -568,7 +568,7 @@ body {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-    background: var(--theme-color);
+    background: var(--theme-color-grad);
     color: #fff;
 }
 
@@ -627,6 +627,8 @@ body {
     background: var(--theme-color-grad); */
     border: 2px solid var(--theme-color);
     padding: 20px;
+    top: 20px;
+    position: absolute;
 }
 
 .interests .card .card-avatar .img {
@@ -642,7 +644,7 @@ body {
     color: #333;
     text-decoration: none;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 120px;
     transition: transform .5s;
 }
 

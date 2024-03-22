@@ -72,12 +72,8 @@
                 img: "web-development.svg"
             },
             {
-                name: "Photoshop",
+                name: "Photo & Videos Editing",
                 img: "ps.svg"
-            },
-            {
-                name: "Videos editing",
-                img: "pr.svg"
             },
             {
                 name: "Youtuber",
@@ -86,21 +82,17 @@
             {
                 name: "PC OS & Software Installation",
                 img: "software-installation.svg"
-            },
-            {
-                name: "Wordpress",
-                img: "wordpress1.svg"
             }
         ],
-        notExpertSkills: ["Bootstrap", "React.js", "Angular", "Codegniter", "Node.js", "Express.js", "MongoDB"],
+        notExpertSkills: ["Bootstrap", "Bootstrap 5", "Angular", "Codegniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
         skills: {
             "programming-languages": ["HTML5", "CSS3", "JavaScript (ES6+)", "PHP"],
-            "front-end": ["Vue.js", "Vuetify", "jQuery", "Bootstrap", "React.js", "Angular"],
+            "front-end": ["Vue.js", "Vuetify", "jQuery", "React.js", "Bootstrap 4", "Bootstrap 5", "Angular"],
             "back-end": ["Laravel", "Codegniter", "Node.js", "Express.js"],
             "database": ["MySQL", "PostgreSQL", "MongoDB"],
             "version-control": ["Git", "Bitbucket", "GitHub"],
             "tools": ["Composer", "npm", "VScode"],
-            "other": ["RESTful APIs", "AJAX", "JSON"],
+            "other": ["RESTful APIs", "AJAX", "JSON", "Wordpress"],
         },
         experiences: [
             {
@@ -283,7 +275,7 @@
         // fetch interests
         config.interests.map((item, index) => {
             $("#interest-content").append(
-                `<div class="col-md-4 col-sm-12 col-12 py-3 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="${index * 200}">
+                `<div class="col-lg-3 col-md-6 col-sm-12 col-12 py-3 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="${index * 200}">
                     <div class="card">
                         <div class="card-avatar">
                             <img src="assets/images/icons/${item.img}" class="img" alt="${item.name}">
