@@ -86,13 +86,13 @@
         ],
         notExpertSkills: ["Bootstrap", "Bootstrap 5", "Angular", "Codegniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
         skills: {
-            "programming-languages": ["HTML5", "CSS3", "JavaScript (ES6+)", "PHP"],
+            "programming-languages": ["HTML5", "CSS3", "JavaScript (ES6+)", "PHP", "JSON"],
             "front-end": ["Vue.js", "Vuetify", "jQuery", "React.js", "Bootstrap 4", "Bootstrap 5", "Angular"],
             "back-end": ["Laravel", "Codegniter", "Node.js", "Express.js"],
             "database": ["MySQL", "PostgreSQL", "MongoDB"],
             "version-control": ["Git", "Bitbucket", "GitHub"],
-            "tools": ["Composer", "npm", "VScode"],
-            "other": ["RESTful APIs", "AJAX", "JSON", "Wordpress"],
+            "tools": ["Composer", "npm", "VScode", "Git"],
+            "other": ["Restful APIs", "AJAX", "OWASP", "Wordpress"],
         },
         experiences: [
             {
