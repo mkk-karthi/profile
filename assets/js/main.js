@@ -247,8 +247,8 @@
     var fetchDatas = function () {
         $("#gmap").hide();
         $("#name").text(config.name);
-        $("#email").text(config.email);
-        $("#mobile").text(config.mobile);
+        $("#email").text(config.email + " | ");
+        $("#mobile").text(config.mobile + " | ");
         $("#location").text(config.location);
         $("#languages").text(config.languages);
         $("#experience").text(config.experience);
@@ -256,6 +256,11 @@
         $("#age").text(config.age);
         $("#dob").text(config.dob);
         $("#marital").text(config.marital);
+
+        $("#call_email").attr("href", "mailTo:" + config.email);
+        $("#call_mobile").attr("href", "tel:" + config.mobile);
+        $("#whatsapp_mobile").attr("href", "https://wa.me/" + config.mobile.replaceAll(" ", "").replace("+", ""));
+
         $("#footer_location").text(config.address);
         $("#footer_location").attr("href", config.address_link);
         $("#footer_mobile").text(config.mobile);

@@ -169,6 +169,12 @@ body {
     display: inline-block;
     color: #fff;
     padding: 0 10px;
+    line-height: 1;
+}
+
+.header-cover .social-icons .fa-download {
+    top: 2px;
+    position: relative;
 }
 
 .header-cover .social-icons li img {
@@ -229,7 +235,7 @@ body {
 
 /* about */
 .about ul li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
@@ -247,6 +253,13 @@ body {
 
 .about p:last-child {
     margin-bottom: 0;
+}
+
+.about #call_email,
+.about #call_mobile,
+.about #whatsapp_mobile {
+    line-height: 1;
+    margin-left: 5px;
 }
 
 .profile-img {
