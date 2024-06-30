@@ -2,7 +2,7 @@
 
     "use strict";
 
-    var d1 = new Date("2021-06-01");
+    var d1 = new Date("2021-07-15");
     var d2 = new Date();
     var months;
     months = (d2.getFullYear() - d1.getFullYear()) * 12;
@@ -13,7 +13,7 @@
 
     const config = {
         name: "Karthikeyan M",
-        tags: ["Web App Developer", "Full Stack Developer", "Photo Editor"],
+        tags: ["Web App Developer", "Full Stack Developer", "MERN Stack Developer", "Photo Editor"],
         email: "mkk2001vnr@gmail.com",
         mobile: "+91 97919 34388",
         location: "Virudhunagar",
@@ -92,7 +92,7 @@
             "database": ["MySQL", "PostgreSQL", "MongoDB"],
             "version-control": ["Git", "Bitbucket", "GitHub"],
             "tools": ["Composer", "npm", "VScode", "Git"],
-            "other": ["Restful APIs", "AJAX", "OWASP", "Wordpress"],
+            "other": ["Restful APIs", "AJAX", "OWASP", "Ubuntu", "Wordpress"],
         },
         experiences: [
             {
