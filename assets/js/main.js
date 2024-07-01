@@ -130,7 +130,7 @@
         var birth = new Date(date);
         var age = today.getFullYear() - birth.getFullYear();
         var m = today.getMonth() - birth.getMonth();
-        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+        if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
             age--;
         }
         return age;
@@ -241,6 +241,7 @@
     var loaderPage = function () {
         setTimeout(() => {
             $(".loader").fadeOut("slow");
+            $("body").css("overflow", "hidden scroll");
         }, 500);
     };
 
