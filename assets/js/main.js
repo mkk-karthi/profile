@@ -9,7 +9,8 @@
     months -= d1.getMonth();
     months += d2.getMonth();
     var year = months / 12;
-    var experience_year = year % 2 == 0 ? year : Math.floor(year) + "+";
+    year = d2.getDate() < d1.getDate() ? year-1 : year;
+    var experience_year = Math.floor(year) + "+";
 
     const config = {
         name: "Karthikeyan M",
