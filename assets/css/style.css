@@ -739,11 +739,12 @@ body {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+        font-weight: 600;
     }
 
     #navbar a:hover {
         background-color: #fff;
-        color: black;
+        color: var(--theme-color);
     }
 
     #navbar .navbar-social {
