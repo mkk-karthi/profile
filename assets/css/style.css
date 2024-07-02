@@ -23,7 +23,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
     background: #fff;
     color: #4d4d4d;
@@ -279,7 +279,7 @@ body {
     border: 1px solid var(--theme-color);
     display: inline-block;
     background: var(--theme-color-op3);
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .card-tags span i {
@@ -712,6 +712,7 @@ body {
 .projects .card .card-caption i {
     font-size: 20px;
     opacity: 0.6;
+    margin-inline: 8px;
 }
 
 
