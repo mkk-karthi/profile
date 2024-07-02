@@ -85,15 +85,15 @@
                 img: "software-installation.svg"
             }
         ],
-        notExpertSkills: ["Bootstrap", "Bootstrap 5", "Angular", "Codegniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
+        notExpertSkills: ["Angular", "Codegniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
         skills: {
             "programming-languages": ["HTML5", "CSS3", "JavaScript (ES6+)", "PHP", "JSON"],
-            "front-end": ["Vue.js", "Vuetify", "jQuery", "React.js", "Bootstrap 4", "Bootstrap 5", "Angular"],
+            "front-end": ["Vue.js", "Vuetify", "jQuery", "React.js", "Bootstrap", "Angular"],
             "back-end": ["Laravel", "Codegniter", "Node.js", "Express.js"],
             "database": ["MySQL", "PostgreSQL", "MongoDB"],
             "version-control": ["Git", "Bitbucket", "GitHub"],
             "tools": ["Composer", "npm", "VScode", "Git"],
-            "other": ["Restful APIs", "AJAX", "OWASP", "Ubuntu", "Wordpress"],
+            "other": ["Restful APIs", "AJAX", "OWASP", "Ubuntu", "Shopify", "Wordpress"],
         },
         experiences: [
             {
@@ -287,7 +287,7 @@
                         <div class="card-avatar">
                             <img src="assets/images/icons/${item.img}" class="img" alt="${item.name}">
                         </div>
-                        <h4 class="card-caption">${item.name}</h4>
+                        <h5 class="card-caption">${item.name}</h5>
                     </div>
                 </div>`
             )
@@ -324,7 +324,7 @@
                 <div class="timeline-badge"><i class="fa fa-suitcase"></i></div>
                 <div class="timeline-panel">
                     <div class="timeline-heading">
-                        <h3 class="timeline-title">${item.role}</h3>
+                        <h4 class="timeline-title">${item.role}</h4>
                         <span class="company">${item.company}</span>
                     </div>
                     <div class="timeline-body">
@@ -351,7 +351,7 @@
                             <div class="timeline-badge"><i class="fa fa-graduation-cap"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h3 class="timeline-title">${item.role}</h3>
+                                    <h4 class="timeline-title">${item.role}</h4>
                                     <span class="company">${item.company}</span>
                                 </div>
                                 <div class="timeline-body">

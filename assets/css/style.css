@@ -23,7 +23,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.7;
     background: #fff;
     color: #4d4d4d;
@@ -109,7 +109,7 @@ body {
     font-family: "Kaushan Script", cursive;
     text-transform: capitalize;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.3;
     font-weight: 300;
     -webkit-transform: rotate(-5deg);
@@ -154,7 +154,7 @@ body {
 
 .header-cover h3 {
     margin-bottom: 20px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.3;
     font-weight: 500;
 }
@@ -162,7 +162,7 @@ body {
 .header-cover .social-icons li {
     list-style: none;
     display: inline;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .header-cover .social-icons li a {
@@ -178,13 +178,12 @@ body {
 }
 
 .header-cover .social-icons li img {
-    width: 26px;
-    margin-top: -6px;
+    width: 22px;
+    margin-top: -4px;
 }
 
 /* heading */
 .heading h2 {
-    font-size: 40px;
     margin-block: 20px;
     line-height: 1.5;
     color: #000;
@@ -245,7 +244,6 @@ body {
 }
 
 .about ul i {
-    font-size: 16px;
     margin-right: 5px;
     color: var(--theme-color);
     line-height: 0;
@@ -281,7 +279,7 @@ body {
     border: 1px solid var(--theme-color);
     display: inline-block;
     background: var(--theme-color-op3);
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .card-tags span i {
@@ -313,13 +311,6 @@ body {
     text-align: center !important;
 }
 
-@media screen and (max-width: 992px) {
-
-    .timeline-heading.center {
-        text-align: left !important;
-    }
-}
-
 @media screen and (min-width: 992px) {
     .timeline:before {
         margin-left: 0;
@@ -335,7 +326,7 @@ body {
 .timeline .timeline-heading>div h3 {
     display: inline-block;
     padding: 7px 15px;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-weight: bold;
@@ -383,6 +374,7 @@ body {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     border-radius: 4px;
+    padding: 0 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -410,7 +402,6 @@ body {
     width: 44px;
     height: 44px;
     line-height: 50px;
-    font-size: 1.4em;
     text-align: center;
     position: absolute;
     top: 40px;
@@ -439,6 +430,10 @@ body {
         left: 15px;
         top: 16px;
     }
+
+    .timeline-heading.center {
+        text-align: left !important;
+    }
 }
 
 .timeline>li>.timeline-badge i {
@@ -452,7 +447,7 @@ body {
     text-align: right;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .timeline>li.timeline-unverted {
         text-align: left;
     }
@@ -561,7 +556,7 @@ body {
 
 .contact .info h4 {
     padding: 0 0 0 60px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
     color: #050d18;
@@ -570,7 +565,6 @@ body {
 .contact .info p {
     padding: 0 0 10px 60px;
     margin-bottom: 20px;
-    font-size: 14px;
     color: var(--theme-color);
 }
 
@@ -711,10 +705,15 @@ body {
 }
 
 .projects .card .card-caption {
-    font-weight: 700;
     color: #333;
     text-decoration: none;
 }
+
+.projects .card .card-caption i {
+    font-size: 20px;
+    opacity: 0.6;
+}
+
 
 .sticky {
     display: block;
@@ -739,7 +738,6 @@ body {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
     }
 
     #navbar a:hover {
@@ -790,7 +788,7 @@ body {
     #navbar a {
         color: #fff;
         font-weight: 600;
-        font-size: 1.8rem;
+        font-size: 20px;
         text-decoration: none;
     }
 
@@ -805,7 +803,6 @@ body {
 
     #navbar .navbar-social {
         display: inline;
-        font-size: 30px;
     }
 
     #navbar .navbar-social a {
@@ -815,21 +812,21 @@ body {
     }
 
     #navbar .navbar-social img {
-        width: 26px;
+        width: 22px;
         margin-top: -6px;
     }
 }
 
 /* about card */
 blockquote {
-    font-size: 16px;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 }
 
 blockquote p {
     font-style: italic;
     margin-bottom: 0;
+    text-indent: 2.5rem;
 }
 
 blockquote p::before,
@@ -837,12 +834,12 @@ blockquote p::after {
     content: "\f10d";
     font-family: "FontAwesome";
     font-size: 30px;
-    margin: -1rem 0 0 -3rem;
+    margin: -1rem 0 0 -5rem;
     position: absolute;
     opacity: 0.5;
 }
 
 blockquote p::after {
     content: "\f10e";
-    margin: -0.6rem 0 0 1rem;
+    margin: -0.6rem 0 0 -2rem;
 }
