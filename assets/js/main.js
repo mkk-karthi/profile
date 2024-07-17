@@ -30,7 +30,7 @@
         facebook: "https://www.facebook.com/profile.php?id=100027787782898&mibextid=ZbWKwL",
         instagram: "https://www.instagram.com/m.k.k.2001",
         twitter: "https://twitter.com/m_k_k_2001",
-        cv: "/assets/images/resume_2024.pdf",
+        cv: "assets/images/resume_2024.pdf",
         projects: [
             {
                 name: "E-commerce",
@@ -100,15 +100,15 @@
             {
                 role: "Web App Developer",
                 company: "Constient Global System",
-                content: "Junior Web application developer at 2022 - Current"
+                content: "Junior Web application developer at Aug 2022 - Current"
             }, {
                 role: "Junior Developer",
                 company: "Vaagai Technologies",
-                content: "From 2021 to 2022, I had the opportunity to work at Vaagai Technologies as a junior developer for a duration of one year. I had the opportunity to learn and implement new technologies, troubleshoot issues, and contribute to the development of innovative solutions."
+                content: "From Jul 2021 to Jul 2022, I had the opportunity to work at Vaagai Technologies as a junior developer for a duration of one year. I had the opportunity to learn and implement new technologies, troubleshoot issues, and contribute to the development of innovative solutions."
             }, {
                 role: "Printing & Computer Operator",
                 company: "KM Systems",
-                content: "From 2019 to 2021, I had the privilege of working at KM Systems in a part-time capacity for a duration of three years. During my time there, I was involved in various responsibilities, including printing, computer operator, and software installation."
+                content: "From May 2019 to Jun 2021, I had the privilege of working at KM Systems in a part-time capacity for a duration of three years. During my time there, I was involved in various responsibilities, including printing, computer operator, and software installation."
             }
         ],
         education: [
