@@ -30,6 +30,7 @@
         facebook: "https://www.facebook.com/profile.php?id=100027787782898&mibextid=ZbWKwL",
         instagram: "https://www.instagram.com/m.k.k.2001",
         twitter: "https://twitter.com/m_k_k_2001",
+        cv: "/assets/images/resume_2024.pdf",
         projects: [
             {
                 name: "E-commerce",
@@ -87,13 +88,13 @@
         ],
         notExpertSkills: ["Angular", "Codegniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
         skills: {
-            "programming-languages": ["HTML5", "CSS3", "JavaScript (ES6+)", "PHP", "JSON"],
-            "front-end": ["Vue.js", "Vuetify", "jQuery", "React.js", "Bootstrap", "Angular"],
+            "programming-languages": ["HTML5", "CSS3", "JavaScript", "PHP", "JSON"],
+            "front-end": ["jQuery", "Vue.js", "Vuetify", "React.js", "Bootstrap", "Angular"],
             "back-end": ["Laravel", "Codegniter", "Node.js", "Express.js"],
             "database": ["MySQL", "PostgreSQL", "MongoDB"],
             "version-control": ["Git", "Bitbucket", "GitHub"],
-            "tools": ["Composer", "npm", "VScode", "Git"],
-            "other": ["Restful APIs", "AJAX", "OWASP", "Ubuntu", "Shopify", "Wordpress"],
+            "tools": ["Ubuntu", "Composer", "npm", "VScode", "Git"],
+            "other": ["Restful APIs", "AJAX", "OWASP", "Shopify", "Wordpress"],
         },
         experiences: [
             {
@@ -273,11 +274,13 @@
         $(".navbar-social #facebook").attr("href", config.facebook);
         $(".navbar-social #instagram").attr("href", config.instagram);
         $(".navbar-social #twitter").attr("href", config.twitter);
+        $(".navbar-social #cv-download").attr("href", config.cv);
 
         $(".social-icons #linkedin").attr("href", config.linkedin);
         $(".social-icons #facebook").attr("href", config.facebook);
         $(".social-icons #instagram").attr("href", config.instagram);
         $(".social-icons #twitter").attr("href", config.twitter);
+        $(".social-icons #cv-download").attr("href", config.cv);
 
         // fetch interests
         config.interests.map((item, index) => {
