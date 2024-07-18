@@ -86,11 +86,11 @@
                 img: "software-installation.svg"
             }
         ],
-        notExpertSkills: ["Angular", "Codegniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
+        notExpertSkills: ["Angular", "CodeIgniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
         skills: {
             "programming-languages": ["HTML5", "CSS3", "JavaScript", "PHP", "JSON"],
             "front-end": ["jQuery", "Vue.js", "Vuetify", "React.js", "Bootstrap", "Angular"],
-            "back-end": ["Laravel", "Codegniter", "Node.js", "Express.js"],
+            "back-end": ["Laravel", "CodeIgniter", "Node.js", "Express.js"],
             "database": ["MySQL", "PostgreSQL", "MongoDB"],
             "version-control": ["Git", "Bitbucket", "GitHub"],
             "tools": ["Ubuntu", "Composer", "npm", "VScode", "Git"],
