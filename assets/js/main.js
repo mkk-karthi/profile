@@ -30,42 +30,42 @@
         facebook: "https://www.facebook.com/profile.php?id=100027787782898&mibextid=ZbWKwL",
         instagram: "https://www.instagram.com/m.k.k.2001",
         twitter: "https://twitter.com/m_k_k_2001",
-        cv: "assets/images/resume_2024.pdf",
+        cv: "assets/images/Resume.pdf",
         projects: [
-            {
-                name: "E-commerce",
-                company: "Ebix, Heart Mart",
-                content: "Developed a responsive e-commerce platform using Laravel and vue.js, allowing users to browse products, add them to the cart, and complete the checkout process."
-            },
-            {
-                name: "Social Media",
-                company: "TPN",
-                content: "Developed a dynamic Social Media platform using PHP, enabling users to seamlessly post updates, engage in live streaming sessions, and participate in real-time chats for a vibrant and interactive online community experience."
-            },
-            {
-                name: "Stock Management",
-                company: "Tara Cards",
-                content: "Built a robust Stock Management system with CodeIgniter, empowering efficient product creation, streamlined invoicing processes, and user management functionalities for seamless control and organization of inventory operations."
-            },
-            {
-                name: "Order Management",
-                company: "Penna Cement",
-                content: "Crafted an intuitive Order Management system using Angular and PHP, allowing users to register, seamlessly create and track orders for a streamlined and user-friendly experience in managing their transactions."
-            },
             {
                 name: "Organization Project",
                 company: "JCI",
                 content: "Developed a comprehensive Organization Project using Laravel and Vue.js, facilitating user management, position upgrades, seamless payment gateways, and event creation for a feature-rich and organized digital ecosystem."
             },
             {
-                name: "Job Search Project",
+                name: "Stock & Order Management",
+                company: "Tara Cards",
+                content: "Built a robust Stock Management system with CodeIgniter, empowering efficient product creation, streamlined invoicing processes, and user management functionalities for seamless control and organization of inventory operations."
+            },
+            {
+                name: "E-commerce (B2C)",
+                company: "Ebix Pro",
+                content: "Developed a responsive e-commerce platform using Laravel and vue.js, allowing users to browse products, add them to the cart, and complete the checkout process."
+            },
+            {
+                name: "Social Media Application",
+                company: "TPN",
+                content: "Developed a dynamic Social Media platform using PHP, enabling users to seamlessly post updates, engage in live streaming sessions, and participate in real-time chats for a vibrant and interactive online community experience."
+            },
+            {
+                name: "Stock Management",
+                company: "Penna Cement",
+                content: "Crafted an intuitive Order Management system using Angular and PHP, allowing users to register, seamlessly create and track orders for a streamlined and user-friendly experience in managing their transactions."
+            },
+            {
+                name: "Job Seeker Portal",
                 company: "Human Bridge",
                 content: "Developed a dynamic Job Search Project with advanced features using Express and React, enabling user and company registrations, profile and skills updates with KYC approval, and efficient job creation for a streamlined and interactive employment platform."
             },
             {
-                name: "Travel Management",
-                company: "Travel Earth",
-                content: "Developed a Travel Management system with php and wordpress, allowing users to plan, book, and manage their travel itineraries seamlessly. Integrated real-time updates, payment gateways, and personalized user experiences for a smooth travel management process."
+                name: "Event Management",
+                company: "Bukit",
+                content: "Developed a Event Management system with php, allowing users to book and manage their events. Integrated real-time updates, and personalized user experiences for a smooth booking process."
             }
         ],
         interests: [
@@ -88,8 +88,8 @@
         ],
         notExpertSkills: ["Angular", "CodeIgniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
         skills: {
-            "programming-languages": ["HTML5", "CSS3", "JavaScript", "PHP", "JSON"],
-            "front-end": ["jQuery", "Vue.js", "Vuetify", "React.js", "Bootstrap", "Angular"],
+            "programming-languages": ["HTML5", "CSS3", "JavaScript", "PHP", "JSON", "TypeScript"],
+            "front-end": ["jQuery", "Vue.js", "Vuetify", "React.js", "Bootstrap", "Next.js", "Angular"],
             "back-end": ["Laravel", "CodeIgniter", "Node.js", "Express.js"],
             "database": ["MySQL", "PostgreSQL", "MongoDB"],
             "version-control": ["Git", "Bitbucket", "GitHub"],
@@ -107,8 +107,8 @@
                 content: "From Jul 2021 to Jul 2022, I had the opportunity to work at Vaagai Technologies as a junior developer for a duration of one year. I had the opportunity to learn and implement new technologies, troubleshoot issues, and contribute to the development of innovative solutions."
             }, {
                 role: "Printing & Computer Operator",
-                company: "KM Systems",
-                content: "From May 2019 to Jun 2021, I had the privilege of working at KM Systems in a part-time capacity for a duration of three years. During my time there, I was involved in various responsibilities, including printing, computer operator, and software installation."
+                company: "Xerox shop",
+                content: "From May 2019 to Jun 2021, I had the privilege of working in a part-time job for a duration of three years. During my time there, I was involved in various responsibilities, including printing, computer operator, and software installation."
             }
         ],
         education: [
