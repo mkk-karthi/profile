@@ -43,9 +43,9 @@
                 content: "Built a robust Stock Management system with CodeIgniter, empowering efficient product creation, streamlined invoicing processes, and user management functionalities for seamless control and organization of inventory operations."
             },
             {
-                name: "E-commerce (B2C)",
+                name: "E-commerce (B2B)",
                 company: "Ebix Pro",
-                content: "Developed a responsive e-commerce platform using Laravel and vue.js, allowing users to browse products, add them to the cart, and complete the checkout process."
+                content: "Developed a responsive Business to Business e-commerce platform using Laravel and vue.js, allowing Multi store register, Manage stores and users to browse products, add them to the cart, and complete the checkout process."
             },
             {
                 name: "Social Media Application",
