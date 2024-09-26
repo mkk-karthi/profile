@@ -14,7 +14,7 @@
 
     const config = {
         name: "Karthikeyan M",
-        tags: ["Web App Developer", "Full Stack Developer", "MERN Stack Developer", "Photo Editor"],
+        tags: ["Web App Developer", "Full Stack Developer", "Frontend Developer", "Backend Developer", "Photo Editor"],
         email: "mkk2001vnr@gmail.com",
         mobile: "+91 97919 34388",
         location: "Virudhunagar",
@@ -103,7 +103,7 @@
                 content: "Junior Web application developer at Aug 2022 - Current"
             }, {
                 role: "Junior Developer",
-                company: "Vaagai Technologies",
+                company: "Vaagai Tecknowledge",
                 content: "From Jul 2021 to Jul 2022, I had the opportunity to work at Vaagai Technologies as a junior developer for a duration of one year. I had the opportunity to learn and implement new technologies, troubleshoot issues, and contribute to the development of innovative solutions."
             }, {
                 role: "Printing & Computer Operator",
