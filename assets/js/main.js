@@ -104,7 +104,7 @@
             }, {
                 role: "Junior Developer",
                 company: "Vaagai Tecknowledge",
-                content: "From Jul 2021 to Jul 2022, I had the opportunity to work at Vaagai Technologies as a junior developer for a duration of one year. I had the opportunity to learn and implement new technologies, troubleshoot issues, and contribute to the development of innovative solutions."
+                content: "From Jul 2021 to Jul 2022, I had the opportunity to work at Vaagai Tecknowledge as a junior developer for a duration of one year. I had the opportunity to learn and implement new technologies, troubleshoot issues, and contribute to the development of innovative solutions."
             }, {
                 role: "Printing & Computer Operator",
                 company: "Xerox shop",
