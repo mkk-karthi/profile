@@ -10,7 +10,7 @@
     months += d2.getMonth();
     var year = months / 12;
     year = d2.getDate() < d1.getDate() ? year-1 : year;
-    var experience_year = Math.floor(year) + "+";
+    var experience_year = Math.ceil(year) + "+";
 
     const config = {
         name: "Karthikeyan M",
@@ -21,11 +21,9 @@
         address: "Virudhunagar, Tamilnadu, INDIA",
         address_link: "https://maps.app.goo.gl/SfCGCmK9ph428SrC8",
         gender: "Male",
-        age: getAge("2001/07/15"),
         dob: "15/07/2001",
         experience: experience_year + " Years",
         languages: "Tamil, English",
-        marital: "Single / Unmarried",
         linkedin: "https://www.linkedin.com/in/karthikeyan-m-00a19423b",
         facebook: "https://www.facebook.com/profile.php?id=100027787782898&mibextid=ZbWKwL",
         instagram: "https://www.instagram.com/m.k.k.2001",
@@ -119,7 +117,7 @@
             }, {
                 role: "HSC",
                 company: "KVS Higher Secondary School - 2016 - 2018",
-                content: "In 2018, I attended KVS HSS, where I studied in the Tamil medium and appeared for the HSC board exams. I am proud to have achieved a respectable score of 70.8%, reflecting my dedication and hard work throughout my academic journey."
+                content: "In 2018, I attended KVS HSS, where I studied in the Tamil medium and appeared for the HSC board exams. I am proud to have achieved a respectable score of 70.25%, reflecting my dedication and hard work throughout my academic journey."
             }, {
                 role: "SSLC",
                 company: "KVS Higher Secondary School - 2014 - 2016",
@@ -127,17 +125,6 @@
             }
         ]
     }
-    function getAge(date) {
-        var today = new Date();
-        var birth = new Date(date);
-        var age = today.getFullYear() - birth.getFullYear();
-        var m = today.getMonth() - birth.getMonth();
-        if (m < 0 || (m === 0 && today.getDate() < birth.getDate())) {
-            age--;
-        }
-        return age;
-    };
-
 
     var fullHeight = function () {
 
@@ -256,9 +243,7 @@
         $("#languages").text(config.languages);
         $("#experience").text(config.experience);
         $("#gender").text(config.gender);
-        $("#age").text(config.age);
         $("#dob").text(config.dob);
-        $("#marital").text(config.marital);
 
         $("#call_email").attr("href", "mailTo:" + config.email);
         $("#call_mobile").attr("href", "tel:" + config.mobile);
