@@ -17,7 +17,8 @@
         tags: ["Web App Developer", "Full Stack Developer", "Frontend Developer", "Backend Developer", "Photo Editor"],
         email: "mkk2001vnr@gmail.com",
         mobile: "+91 97919 34388",
-        location: "Virudhunagar",
+        cur_location: "Chennai",
+        nat_location: "Virudhunagar",
         address: "Virudhunagar, Tamilnadu, INDIA",
         address_link: "https://maps.app.goo.gl/SfCGCmK9ph428SrC8",
         gender: "Male",
@@ -84,44 +85,43 @@
                 img: "software-installation.svg"
             }
         ],
-        notExpertSkills: ["Angular", "CodeIgniter", "Node.js", "Express.js", "MongoDB", "Wordpress"],
+        notExpertSkills: ["Angular", "CodeIgniter", "MongoDB", "Wordpress"],
         skills: {
             "programming-languages": ["HTML5", "CSS3", "JavaScript", "PHP", "JSON", "TypeScript"],
-            "front-end": ["jQuery", "Vue.js", "Vuetify", "React.js", "Bootstrap", "Next.js", "Angular"],
-            "back-end": ["Laravel", "CodeIgniter", "Node.js", "Express.js"],
+            "front-end": ["Vue.js", "Vuetify", "React.js", "Bootstrap", "Next.js", "jQuery", "Angular"],
+            "back-end": ["Laravel", "Node.js", "Express.js", "CodeIgniter"],
             "database": ["MySQL", "PostgreSQL", "MongoDB"],
             "version-control": ["Git", "Bitbucket", "GitHub"],
-            "tools": ["Ubuntu", "Composer", "npm", "VScode", "Git"],
+            "tools": ["Ubuntu", "VScode", "Git", "Composer", "npm"],
             "other": ["Restful APIs", "AJAX", "OWASP", "Shopify", "Wordpress"],
         },
         experiences: [
             {
-                role: "Web App Developer",
+                role: "Software Engineer",
                 company: "Constient Global System",
-                content: "Junior Web application developer at Aug 2022 - Current"
+                date: "Aug 2022 - current",
+                content: "Developed e-commerce platforms, enhancing user experience and conversion rates. Integrated Shopify API for efficient product management and order processing. Collaborated on social media applications to boost user engagement. Followed Agile methodologies for timely project delivery and high quality."
             }, {
-                role: "Junior Developer",
+                role: "Software Developer",
                 company: "Vaagai Tecknowledge",
-                content: "From Jul 2021 to Jul 2022, I had the opportunity to work at Vaagai Tecknowledge as a junior developer for a duration of one year. I had the opportunity to learn and implement new technologies, troubleshoot issues, and contribute to the development of innovative solutions."
+                date: "Jun 2021 - Jul 2022",
+                content: "Developed an Order Management System to enhance order processing and inventory tracking. Created a Members Portal for improved user engagement and personalized access. Collaborated with teams to gather requirements and align with business goals. Used modern frameworks to ensure scalable and maintainable applications."
             }, {
                 role: "Printing & Computer Operator",
                 company: "Xerox shop",
+                date: "May 2019 - Jun 2021",
                 content: "From May 2019 to Jun 2021, I had the privilege of working in a part-time job for a duration of three years. During my time there, I was involved in various responsibilities, including printing, computer operator, and software installation."
             }
         ],
         education: [
             {
                 role: "Bachelors Degree",
-                company: "VHNSN College - 2018 - 2021",
+                company: "VHNSN College (2018 - 2021)",
                 content: "I pursued my college education at VHNSNC in 2021, specializing in Bachelor of Computer Science with English as the medium of instruction. I am proud to have achieved a commendable score of 72%, reflecting my dedication and hard work throughout my academic journey."
             }, {
                 role: "HSC",
-                company: "KVS Higher Secondary School - 2016 - 2018",
+                company: "KVS Higher Secondary School (2016 - 2018)",
                 content: "In 2018, I attended KVS HSS, where I studied in the Tamil medium and appeared for the HSC board exams. I am proud to have achieved a respectable score of 70.25%, reflecting my dedication and hard work throughout my academic journey."
-            }, {
-                role: "SSLC",
-                company: "KVS Higher Secondary School - 2014 - 2016",
-                content: "I studied at KVS Higher Secondary School in 2016 and obtained 76% marks in the SSLC exam. The medium of instruction for my studies was Tamil."
             }
         ]
     }
@@ -239,11 +239,10 @@
         $("#name").text(config.name);
         $("#email").text(config.email + " | ");
         $("#mobile").text(config.mobile + " | ");
-        $("#location").text(config.location);
+        $("#cur_location").text(config.cur_location);
+        $("#nat_location").text(config.nat_location);
         $("#languages").text(config.languages);
         $("#experience").text(config.experience);
-        $("#gender").text(config.gender);
-        $("#dob").text(config.dob);
 
         $("#call_email").attr("href", "mailTo:" + config.email);
         $("#call_mobile").attr("href", "tel:" + config.mobile);
@@ -314,6 +313,7 @@
                     <div class="timeline-heading">
                         <h4 class="timeline-title">${item.role}</h4>
                         <span class="company">${item.company}</span>
+                        <span class="time">${item.date}</span>
                     </div>
                     <div class="timeline-body">
                         <p>${item.content}</p>
